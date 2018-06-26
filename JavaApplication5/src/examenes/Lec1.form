@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,110,0,0,2,-90"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="218" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="jTabbedPane1" min="-2" pref="615" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="btnRE" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="258" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnRE" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="13" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Introduccion">
+                <Property name="tabTitle" type="java.lang.String" value="Introduccion"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" min="-2" pref="610" max="-2" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="5"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="La web era sencillamente una colecci&#xf3;n de p&#xe1;ginas est&#xe1;ticas, documentos, etc., para su consulta o descarga. &#xa;El paso inmediatamente posterior en su evoluci&#xf3;n fue la inclusi&#xf3;n de un m&#xe9;todo para elaborar p&#xe1;ginas din&#xe1;micas que permitieran que lo mostrado tuviese car&#xe1;cter din&#xe1;mico (es decir, generado a partir de los datos de la petici&#xf3;n).&#xa;Las aplicaciones web son populares debido a lo pr&#xe1;ctico del navegador como cliente ligero, a la independencia del sistema operativo, as&#xed; como a la facilidad para actualizar y mantener aplicaciones sin distribuir e instalar software a miles de usuarios potenciales. &#xa;Las aplicaciones web son aquellas cuya interfaz se construye utilizando p&#xe1;ginas web. Dichas paginas son documentos de texto a los que se les a&#xf1;aden etiquetas que nos permiten visualizar el texto de distintas formas y establecer enlaces entre una p&#xe1;gina y otra.&#xa;Una de las caracter&#xed;sticas m&#xe1;s destacable de las p&#xe1;ginas web es la capacidad de enlazar un texto con otro para crear un hipertexto.&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="WEB 1.0">
+                <Property name="tabTitle" type="java.lang.String" value="WEB 1.0"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="610" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="La Web 1.0 es la forma m&#xe1;s b&#xe1;sica que existe, con navegadores de s&#xf3;lo texto bastante r&#xe1;pidos ya que es de s&#xf3;lo lectura. El usuario no puede interactuar con el contenido de la p&#xe1;gina (nada de comentarios, respuestas, citas, etc), estando totalmente limitado a lo que el Webmaster sube a &#xe9;sta.&#xa;&#xa;Algunos elementos de dise&#xf1;o t&#xed;picos de un sitio Web 1.0 incluyen:&#xa;&#x2022;&#x9;P&#xe1;ginas est&#xe1;ticas en vez de din&#xe1;micas por el usuario que la visita2&#xa;&#x2022;&#x9;El uso de framesets o Marcos.&#xa;&#x2022;&#x9;Extensiones propias del HTML como &lt;bilnk&gt; y &lt;marquee&gt;, etiquetas introducidas durante la guerra de navegadores web.&#xa;&#x2022;&#x9;Libros de visitas online o guestbooks&#xa;&#x2022;&#x9;botones GIF, casi siempre a una resoluci&#xf3;n t&#xed;pica de 88x31 pixels en tama&#xf1;o promocionando navegadores web u otros productos.3&#xa;&#x2022;&#x9;formularios HTML enviados v&#xed;a email. Un usuario llenaba un formulario y despu&#xe9;s de hacer clic se enviaba a trav&#xe9;s de un cliente de correo electr&#xf3;nico, con el problema que en el c&#xf3;digo se pod&#xed;a observar los detalles del env&#xed;o del correo electr&#xf3;nico.&#xa;&#x2022;&#x9;No se podian adherir comentarios ni nada parecido&#xa;&#x2022;&#x9;Todas sus p&#xe1;ginas se creaban de forma fija y muy pocas veces se actualizaban.&#xa;&#x2022;&#x9;No se trata de una nueva versi&#xf3;n, sino de una nueva forma de ver las cosas.&#xa;&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="WEB 2.0">
+                <Property name="tabTitle" type="java.lang.String" value="WEB 2.0"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane3" alignment="0" pref="610" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane3" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea3">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="El t&#xe9;rmino Web 2.0 comprende aquellos sitios web que facilitan el compartir informaci&#xf3;n, la interoperabilidad, el dise&#xf1;o centrado en el usuario1 y lacolaboraci&#xf3;n en la World Wide Web. Un sitio Web 2.0 permite a los usuarios interactuar y colaborar entre s&#xed; como creadores de contenido generado por usuarios en una comunidad virtual, a diferencia de sitios web est&#xe1;ticos donde los usuarios se limitan a la observaci&#xf3;n pasiva de los contenidos que se han creado para ellos. Ejemplos de la Web 2.0 son las comunidades web, los servicios web, las aplicaciones Web, los servicios de red social, losservicios de alojamiento de videos, las wikis, blogs, mashups y folcsonom&#xed;as.&#xa;&#xa;&#xa;Servicios asociados:&#xa;&#x2022;&#x9;Blogs: Un blog es un espacio web personal en el que su autor puede escribir cronol&#xf3;gicamente art&#xed;culos, noticias...(con im&#xe1;genes y enlaces).&#xa;&#x2022;&#x9;Wikis: Una wiki es un espacio web corporativo, organizado mediante una estructura hipertextual de p&#xe1;ginas donde varias personas elaboran contenidos de manera as&#xed;ncrona. &#xa;&#x2022;&#x9;Redes sociales: Sitios web donde cada usuario tiene una p&#xe1;gina donde publica contenidos y se comunica con otros usuarios. Ejemplos: Facebook, Twitter, Tuenti, Hi5, Myspace, etc. &#xa;&#x2022;&#x9;Entornos para compartir recursos: Entornos que nos permiten almacenar recursos o contenidos en Internet, compartirlos y visualizarlos cuando nos convenga. Existen de diversos tipos, seg&#xfa;n el contenido que albergan o el uso que se les da:&#xa;&#x2022;&#x9;Documentos: Google Drive y Office Web Apps (SkyDrive), en los cuales podemos subir nuestros documentos, compartirlos y modificarlos.&#xa;&#x2022;&#x9;Videos: Youtube, Vimeo, Dailymotion, Dalealplay... Contienen miles de v&#xed;deos subidos y compartidos por los usuarios.&#xa;&#x2022;&#x9;Fotos: Picassa, Flickr... Permiten disfrutar y compartir las fotos tambi&#xe9;n tenemos la oportunidad de organizar las fotos con etiquetas, separ&#xe1;ndolas por grupos como si fueran &#xe1;lbumes, podemos seleccionar y guardar aparte las fotos que no queremos publicar.&#xa;&#x2022;&#x9;Agregadores de noticias: Digg, Meneame... Noticias de cualquier medio son agregadas y votadas por los usuarios.&#xa;&#x2022;&#x9;Almacenamiento online: Dropbox, Google Drive, SkyDrive&#xa;&#x2022;&#x9;Presentaciones: Prezzi, Slideshare.&#xa;&#x2022;&#x9;Plataformas educativas&#xa;&#x2022;&#x9;Aulas virtuales (s&#xed;ncronas)&#xa;&#x2022;&#x9;Encuestas en l&#xed;nea&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="WEB 3.0">
+                <Property name="tabTitle" type="java.lang.String" value="WEB 3.0"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane4" alignment="0" pref="610" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane4" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea4">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Web 3.0 es una expresi&#xf3;n que se utiliza para describir la evoluci&#xf3;n del uso y la interacci&#xf3;n de las personas en internet a trav&#xe9;s de diferentes formas entre los que se incluyen la transformaci&#xf3;n de la red en una base de datos, un movimiento social hacia crear contenidos accesibles por m&#xfa;ltiples aplicaciones non-browser, el empuje de las tecnolog&#xed;as de inteligencia artificial, la web sem&#xe1;ntica, la Web Geoespacial o la Web 3D.&#xa;&#xa;&#xa;Se basa en la idea de a&#xf1;adir metadatos sem&#xe1;nticos y ontol&#xf3;gicos a la World Wide Web. Esas informaciones adicionales &#x2014;que describen el contenido, el significado y la relaci&#xf3;n de los datos&#x2014; se deben proporcionar de manera formal, para que as&#xed; sea posible evaluarlas autom&#xe1;ticamente por m&#xe1;quinas de procesamiento. El objetivo es mejorar Internet ampliando la interoperabilidad entre los sistemas inform&#xe1;ticos usando &quot;agentes inteligentes&quot;. Agentes inteligentes son programas en las computadoras que buscan informaci&#xf3;n sin operadores humanos. Con la web 3.0 se busca que los usuarios puedan conectarse desde cualquier lugar, cualquier dispositivo y a cualquier momento.&#xa;&#xa;Entre sus innovaciones destacan:&#xa;&#x2022;&#x9;Bases de datos&#xa;&#x2022;&#x9;Inteligencia artificial&#xa;&#x2022;&#x9;Web sem&#xe1;ntica y SOA&#xa;&#x2022;&#x9;Evoluci&#xf3;n al 3D&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Evoluci&#xf3;n de las aplicaciones web"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Realizar Evaluacion"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnREActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,110,0,0,2,-90"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="jTabbedPane1" min="-2" pref="615" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="363" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="258" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="13" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Introduccion">
+                <Property name="tabTitle" type="java.lang.String" value="Introduccion"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" min="-2" pref="610" max="-2" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="5"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Para desarrollar una web, lo primero que necesitamos es un Sistema Operativo, como es l&#xf3;gico, &#xa;y su elecci&#xf3;n no es tan trivial. Hay que tener en cuenta las aplicaciones de las que dispone el &#xa;Sistema Operativo y sus costes.&#xa; &#xa;Por ejemplo, tenemos Microsoft Windows, cuyas aplicaciones son muy caras, como Photoshop, &#xa;Dreamweaver, Fireworks, ASP .NET&#x2026; Y por otro lado tenemos GNU/Linux, con GIMP, Inkscape, &#xa;Amaya, Aptana, PHP (aunque todos ellos tambi&#xe9;n est&#xe1;n disponibles en Windows). &#xa; &#xa;Otra caracter&#xed;stica a tener en cuenta es las facilidades que el Sistema Operativo aporta al&#xa;desarrollador, y en este sentido GNU/Linux se lleva de calle a Windows. &#xa;Y esto es porque Windows no fue dise&#xf1;ado para los desarrolladores, sino para personas que &#xa;no tienen muchos conocimientos sobre inform&#xe1;tica."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Fases de desarrollo web">
+                <Property name="tabTitle" type="java.lang.String" value="Fases de desarrollo web"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="610" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Para elegir las herramientas a utilizar, antes debemos identificar las fases del proceso que &#xa;forman el ciclo de vida de un desarrollo web.&#xa;&#xa;Dise&#xf1;o:&#xa;El dise&#xf1;o consiste en crear esbozos de la web final mediante una herramienta gr&#xe1;fica, como &#xa;Photoshop, GIMP o Inkscape.&#xa;&#xa;Maquetaci&#xf3;n HTML/CSS:&#xa;La maquetaci&#xf3;n consiste en convertir los esbozos creados en la fase anterior en plantillas HTML,&#xa;su respectiva hoja de estilos, y las im&#xe1;genes usadas. Es posible saltarse la fase anterior para &#xa;comenzar directamente con esta fase, dependiendo de si dominamos herramientas como &#xa;Photoshop o no.&#xa;&#xa;Programaci&#xf3;n cliente:&#xa;La programaci&#xf3;n cliente consiste b&#xe1;sicamente en Javascript. Una web puede no tener necesidad &#xa;de hacer programaci&#xf3;n cliente, como puede ser una peque&#xf1;a web corporativa con poca &#xa;informaci&#xf3;n est&#xe1;tica, o puede que requiera enormes esfuerzos en esta fase, como ocurre con los&#xa;proyectos Web 2.0.&#xa;&#xa;Programaci&#xf3;n servidor:&#xa;En esta fase, que se desarrolla junto con la anterior, crearemos la aplicaci&#xf3;n web en un lenguaje&#xa;de servidor, como puede ser PHP, ASP .NET, Python, Perl, etc.&#xa;&#xa;Depuraci&#xf3;n:&#xa;Esta fase enlaza la anterior con la siguiente, y es donde haremos las pruebas unitarias, &#xa;aserciones, trazas, etc.&#xa;&#xa;Pruebas en local:&#xa;En nuestro servidor local haremos todas las pruebas posibles.&#xa;&#xa;Subir ficheros al hosting:&#xa;Una vez nuestra web est&#xe9; completada y bien testeada en nuestro servidor local (desarrollo), &#xa;la subiremos al servidor del hosting elegido (producci&#xf3;n). Dependiendo del hosting, &#xa;podremos usar FTP, SFTP (SSH), WebDAV, o incluso Subversi&#xf3;n.&#xa;&#xa;Pruebas en hosting:&#xa;Realizaremos las &#xfa;ltimas pruebas en el servidor del hosting para comprobar que el cambio de &#xa;servidor no ha afectado a nada. Para evitar problemas, nuestro servidor local debe tener &#xa;exactamente la misma configuraci&#xf3;n que el servidor del hosting.&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Herramientas">
+                <Property name="tabTitle" type="java.lang.String" value="Herramientas"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane3" alignment="0" pref="610" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane3" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea3">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Desarrollo en PHP&#xa;&#xa;A continuaci&#xf3;n se enumeran las herramientas b&#xe1;sicas para el desarrollo de una web en PHP, &#xa;en sus diferentes fases de dise&#xf1;o e implementaci&#xf3;n.&#xa;&#xa;Fases: dise&#xf1;o y maquetaci&#xf3;n&#xa;&#xa;    &#xb7;        Adobe PhotoShop&#xa;    &#xb7;        GIMP:&#xa;    &#xb7;        Inkscape&#xa;    &#xb7;        Adobe Fireworks&#xa;    &#xb7;        Dreamweaver, Aptana, Amaya:&#xa;    &#xb7;&#xa;&#xa;&#xa;Fases: maquetaci&#xf3;n, programaci&#xf3;n cliente&#xa;&#xa;Fase: programaci&#xf3;n servidor&#xa;Con &#xe9;l crearemos f&#xe1;cilmente la aplicaci&#xf3;n web en PHP. Aunque podremos usar igualmente &#xa;cualquier editor. Una muy buena alternativa es Eclipse con el plugin PHP.&#xa;&#xa;Otra aplicaci&#xf3;n muy &#xfa;til que est&#xe1; muy ligada a Zend Studio es Zend Platform, un m&#xf3;dulo para &#xa;Apache que permite depurar una web directamente en el navegador,&#xa;adem&#xe1;s de otras funciones m&#xe1;s complejas, como alertas configurables para que nos env&#xed;e un &#xa;email por cada error ocurrido en la web, o cuando un script sobrepase un tiempo determinado &#xa;de ejecuci&#xf3;n, por ejemplo.&#xa;&#xa;Fase: prueba local&#xa;&#xa;    &#xb7;        Apache&#xa;    &#xb7;        Firefox / Firebug / Web Developer Extension&#xa;&#xa;Fases: pruebas en local, depuraci&#xf3;n&#xa;&#xa;Con Firebug podremos depurar Javascript, editar HTML y CSS en la misma p&#xe1;gina para ver los&#xa;cambios en tiempo real, consultar los tiempos de carga de la p&#xe1;gina en conjunto, de las im&#xe1;genes,&#xa;javascripts, hojas de estilo, etc, as&#xed; como sus tama&#xf1;os, etc. Y Web Developer nos ofrece &#xa;herramientas muy &#xfa;tiles como ver las cookies de la web, ocultar im&#xe1;genes, cambiar el tama&#xf1;o del &#xa;navegador a resoluciones est&#xe1;ndar, etc.&#xa;&#xa;Subir ficheros al servidor del hosting&#xa;Una vez hayamos concluido todas las fases anteriores, y nuestro proyecto est&#xe9; listo, deberemos &#xa;subirlo al servidor del hosting.&#xa;&#xa;La herramienta a utilizar depender&#xe1; de las opciones que nos ofrezca el hosting, que &#xa;desgraciadamente en la mayor&#xed;a de los casos es solamente el antiguo FTP (FileZilla). &#xa;En Dreamweaver y Zend Studio tenemos un cliente FTP y SFTP (SSH), y la tarea consistir&#xe1; &#xa;simplemente en configurar el FTP y copiar y pegar los directorios que queramos subir.&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tecnologias para el desarrollo de las aplicaciones web"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Realizar Evaluacion"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

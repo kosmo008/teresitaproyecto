@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,110,0,0,2,-90"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="218" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="jTabbedPane1" min="-2" pref="615" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="258" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="13" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Introduccion">
+                <Property name="tabTitle" type="java.lang.String" value="Introduccion"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" min="-2" pref="610" max="-2" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="5"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Una aplicaci&#xf3;n Web  es  proporcionada  por  un  servidor  Web  y  utilizada  por  usuarios  que  &#xa;se conectan desde cualquier punto v&#xed;a clientes Web (browsers o navegadores). &#xa;La arquitectura de un Sitio Web tiene tres componentes principales:&#xa;&#x2022;&#x9;  Un servidor Web&#xa;&#x2022;&#x9;  Una conexi&#xf3;n de red&#xa;&#x2022;&#x9;  Uno o m&#xe1;s clientes&#xa;El servidor Web distribuye p&#xe1;ginas de informaci&#xf3;n formateada a los clientes que las solicitan. &#xa;Los requerimientos son hechos a trav&#xe9;s de una conexi&#xf3;n de red, y para ello se usa el protocolo &#xa;HTTP. Una vez que se solicita esta petici&#xf3;n mediante el protocolo HTTP y la recibe el servidor &#xa;Web, &#xe9;ste localiza la p&#xe1;gina Web en su sistema de archivos y la env&#xed;a de vuelta al navegador que&#xa;la solicit&#xf3;.&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#xbf;Que es?">
+                <Property name="tabTitle" type="java.lang.String" value="&#xbf;Que es?"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="610" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Las p&#xe1;ginas Web son el componente principal de una aplicaci&#xf3;n o sitio Web. &#xa;Los browsers piden p&#xe1;ginas  (almacenadas  o creadas  din&#xe1;micamente) con  informaci&#xf3;n  a  los  &#xa;servidores  Web.  En algunos  ambientes  de  desarrollo de  aplicaciones  Web, las  p&#xe1;ginas  &#xa;contienen  c&#xf3;digo  HTML  y scripts din&#xe1;micos, que son ejecutados por el servidor antes de &#xa;entregar la p&#xe1;gina.&#xa;&#xa;Una vez que se entrega una p&#xe1;gina, la conexi&#xf3;n entre el browser y el servidor Web se rompe, &#xa;es decir que la l&#xf3;gica del negocio en el servidor solamente se activa por la ejecuci&#xf3;n de los &#xa;scripts de las p&#xe1;ginas solicitadas por el browser (en el servidor, no en el cliente). Cuando el &#xa;browser ejecuta un script en el cliente, &#xe9;ste no tiene acceso directo a los recursos del servidor. &#xa;Hay  otros  componentes  que no  son  scripts, como los  applets  (una aplicaci&#xf3;n  especial  que  se&#xa;ejecuta  dentro de  un  navegador)  o los  componentes  ActiveX. Los  scripts  del  cliente  son  &#xa;por lo general c&#xf3;digo JavaScript o VBSscript, mezclados con c&#xf3;digo HTML.&#xa;&#xa;La colecci&#xf3;n de p&#xe1;ginas son en una buena parte din&#xe1;micas (ASP, PHP, etc.), y est&#xe1;n agrupadas &#xa;l&#xf3;gicamente para dar un servicio al usuario. El acceso a las p&#xe1;ginas est&#xe1; agrupado tambi&#xe9;n en el &#xa;tiempo (sesi&#xf3;n). Los componentes de una aplicaci&#xf3;n Web son:&#xa;&#xa;1.  L&#xf3;gica de negocio.&#xa;&#xa;     Parte m&#xe1;s importante de la aplicaci&#xf3;n.&#xa;      Define los procesos que involucran a la aplicaci&#xf3;n.&#xa;      Conjunto de operaciones requeridas para proveer el servicio.&#xa;&#xa;2.  Administraci&#xf3;n de los datos.&#xa;&#xa;      Manipulaci&#xf3;n de BD y archivos.&#xa;&#xa;3.  Interfaz&#xa;&#xa;      Los usuarios acceden a trav&#xe9;s de navegadores, m&#xf3;viles, PDAs, etc.&#xa;      Funcionalidad accesible a trav&#xe9;s del navegador.&#xa;      Limitada y dirigida por la aplicaci&#xf3;n.&#xa;&#xa;Las aplicaciones web se modelan mediante lo que se conoce como modelo de capas,  Una capa &#xa;representa un elemento que procesa o trata informaci&#xf3;n. Los tipos son:&#xa;&#xa;      Modelo  de  dos  capas: La  informaci&#xf3;n  atraviesa  dos  capas  entre  la interfaz  y  la administraci&#xf3;n de los datos.&#xa;      Modelo de n-capas: La informaci&#xf3;n atraviesa varias capas, el m&#xe1;s habitual es el modelo de tres capas.&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Modelo de 2 Capas">
+                <Property name="tabTitle" type="java.lang.String" value="Modelo de 2 Capas"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane3" alignment="0" pref="610" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane3" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea3">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Gran parte de la aplicaci&#xf3;n corre en el lado del cliente (fat client).&#xa;&#xa;Las capas son:&#xa;&#xa;      Cliente (fat client): La l&#xf3;gica de negocio est&#xe1; inmersa dentro de la aplicaci&#xf3;n que realiza &#xa;      el interfaz de usuario, en el lado del cliente.&#xa;      Servidor: Administra los datos.&#xa;&#xa;Las limitaciones de este modelo son.&#xa;&#xa;      Es dif&#xed;cilmente escalable&#xa;      N&#xfa;mero de conexiones reducida&#xa;      Alta carga de la red.&#xa;      La flexibilidad es restringida&#xa;      La funcionalidad es limitada.&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Modelo de 3 capas">
+                <Property name="tabTitle" type="java.lang.String" value="Modelo de 3 capas"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane4" alignment="0" pref="610" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane4" alignment="0" pref="230" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea4">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="13" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Esta dise&#xf1;ada para superar las limitaciones de las arquitecturas ajustadas al modelo de dos &#xa;capas, introduce una capa intermedia (la capa de proceso) Entre  presentaci&#xf3;n y  los  datos, los  &#xa;procesos  pueden  ser manejados  de forma separada a  la  interfaz de usuari o y a los datos, &#xa;esta capa intermedia centraliza la l&#xf3;gica de negocio, haciendo la administraci&#xf3;n  m&#xe1;s  sencil a, &#xa;los  datos  se pueden integrar de  m&#xfa;ltiples  fuentes, las  aplicaciones web actuales se ajustan a &#xa;este modelo.&#xa;&#xa;Las capas de este modelo son:&#xa;&#xa;1.  Capa de presentaci&#xf3;n (parte en el cliente y parte en el servidor)&#xa;&#xa;      Recoge la informaci&#xf3;n del usuario y la env&#xed;a al servidor (cliente)&#xa;      Manda informaci&#xf3;n a la capa de proceso para su procesado&#xa;      Recibe los resultados de la capa de proceso&#xa;      Generan la presentaci&#xf3;n&#xa;      Visualizan la presentaci&#xf3;n al usuario (cliente)&#xa;&#xa;2.  Capa de proceso (servidor web)&#xa;&#xa;      Recibe la entrada de datos de la capa de presentaci&#xf3;n&#xa;      Interact&#xfa;a con la capa de datos para realizar operaciones&#xa;      Manda los resultados procesados a la capa de presentaci&#xf3;n&#xa;&#xa;3.  Capa de datos (servidor de datos)&#xa;&#xa;      Almacena los datos&#xa;      Recupera datos&#xa;      Mantiene los datos&#xa;      segura la integridad de los datos&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Arquitectura de las Aplicaciones WEB"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Realizar Evaluacion"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
